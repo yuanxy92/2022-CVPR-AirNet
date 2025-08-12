@@ -19,7 +19,7 @@ if __name__ == '__main__':
                         help='0 for denoise, 1 for derain, 2 for dehaze, 3 for all-in-one')
 
     parser.add_argument('--test_path', type=str, default="test/demo/", help='save path of test images')
-    parser.add_argument('--output_path', type=str, default="output/demo/", help='output save path')
+    parser.add_argument('--output_path', type=str, default="test/output/demo/", help='output save path')
     parser.add_argument('--ckpt_path', type=str, default="ckpt/", help='checkpoint save path')
     opt = parser.parse_args()
 
